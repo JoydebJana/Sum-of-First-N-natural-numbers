@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class Main{
+    
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        int sum=0;
+        for(int i=1;i<=n;i++){   //I have controlled the for loop for "n" times because of N Numbers.
+            sum+=i ;   //Everytime the "sum" Variable's Value is to be Updated.
+        }
+        System.out.println(sum); //It's the sum of all Numbers from 1 to Your Entered Number.
+    }
+}
